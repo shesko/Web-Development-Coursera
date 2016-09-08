@@ -1,0 +1,18 @@
+h1 {
+	margin-bottom: 50px;
+}
+
+nav {
+	background-color: #0e2f44;
+}
+
+.menu-element {
+	background-color: #0e2f44;
+	color: #ffffff;
+	margin: 10px auto;
+}
+
+.container-fluid {
+	margin-left: 10px;
+	margin-right: 10px;
+}
