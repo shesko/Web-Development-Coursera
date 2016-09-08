@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 21px;
+}
+
+section {
+  /*float: left;*/
+  background-color: #888888;
+  width: 99.2%;
+  margin: 5px auto 5px auto;
+  position: relative;
+}
+
+body {
+  margin: 0.5%;
+}
+
+section, h2 {
+  border: 2px solid #000000;
+}
+
+h2 {
+  width: 35%;
+  margin: 0px;
+  position: relative;
+  left: 65%;
+  border-right: 0px;
+  border-top: 0px;
+  font-size: 15px;
+}
+
+#chicken > h2 {
+    background-color: #CA8486;
+}
+#beef > h2{
+    background-color: #B23034;
+}
+#sushi > h2 {
+    background-color: #DEC886;
+}
+
+p {
+  margin: 7px;
+  font-size: 12px;
+  padding: 5px;
+  padding-top: 0px
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  section{
+    margin: 0.4%;   /* Equivalent to 0.5% body*/
+  }
+
+  /* removed other width dimensions because they were redundant for this exercise and resulting file is smaller */
+  .col-lg-4 {
+    float: left;
+    width: 32.53%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  section {
+    margin: 0.4%;   /* Equivalent to 0.5% body*/
+  }
+
+  .col-md-6, .col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 49.2%;
+  }
+  .col-md-12 {
+    width: 99.2%;
+  }
+}
